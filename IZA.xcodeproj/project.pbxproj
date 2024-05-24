@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7782612BF632C8000A2EA7 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7782602BF632C7000A2EA7 /* DateFormat.swift */; };
 		ACCE708A2BF210B9009540DE /* IZAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE70892BF210B9009540DE /* IZAApp.swift */; };
 		ACCE708C2BF210B9009540DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE708B2BF210B9009540DE /* ContentView.swift */; };
-		ACCE708E2BF210B9009540DE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE708D2BF210B9009540DE /* Item.swift */; };
 		ACCE70902BF210BC009540DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCE708F2BF210BC009540DE /* Assets.xcassets */; };
 		ACCE70932BF210BC009540DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCE70922BF210BC009540DE /* Preview Assets.xcassets */; };
+		ACCE709A2BF21D3E009540DE /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE70992BF21D3E009540DE /* AppModel.swift */; };
+		ACCE709C2BF22CA0009540DE /* CompetitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE709B2BF22CA0009540DE /* CompetitionsView.swift */; };
+		ACCE709E2BF3A017009540DE /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE709D2BF3A017009540DE /* DateView.swift */; };
+		ACCE70A22BF51286009540DE /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE70A12BF51286009540DE /* TableView.swift */; };
+		ACCE70A42BF53799009540DE /* CompetitionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE70A32BF53799009540DE /* CompetitionsVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC7782602BF632C7000A2EA7 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		ACCE70862BF210B9009540DE /* IZA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IZA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCE70892BF210B9009540DE /* IZAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IZAApp.swift; sourceTree = "<group>"; };
 		ACCE708B2BF210B9009540DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACCE708D2BF210B9009540DE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		ACCE708F2BF210BC009540DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCE70922BF210BC009540DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACCE70992BF21D3E009540DE /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		ACCE709B2BF22CA0009540DE /* CompetitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsView.swift; sourceTree = "<group>"; };
+		ACCE709D2BF3A017009540DE /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		ACCE70A12BF51286009540DE /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		ACCE70A32BF53799009540DE /* CompetitionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,14 @@
 		ACCE70882BF210B9009540DE /* IZA */ = {
 			isa = PBXGroup;
 			children = (
+				ACCE709B2BF22CA0009540DE /* CompetitionsView.swift */,
+				ACCE70A32BF53799009540DE /* CompetitionsVM.swift */,
+				ACCE709D2BF3A017009540DE /* DateView.swift */,
+				AC7782602BF632C7000A2EA7 /* DateFormat.swift */,
+				ACCE70992BF21D3E009540DE /* AppModel.swift */,
 				ACCE70892BF210B9009540DE /* IZAApp.swift */,
+				ACCE70A12BF51286009540DE /* TableView.swift */,
 				ACCE708B2BF210B9009540DE /* ContentView.swift */,
-				ACCE708D2BF210B9009540DE /* Item.swift */,
 				ACCE708F2BF210BC009540DE /* Assets.xcassets */,
 				ACCE70912BF210BC009540DE /* Preview Content */,
 			);
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCE709E2BF3A017009540DE /* DateView.swift in Sources */,
+				ACCE70A42BF53799009540DE /* CompetitionsVM.swift in Sources */,
+				ACCE709C2BF22CA0009540DE /* CompetitionsView.swift in Sources */,
 				ACCE708C2BF210B9009540DE /* ContentView.swift in Sources */,
-				ACCE708E2BF210B9009540DE /* Item.swift in Sources */,
+				ACCE709A2BF21D3E009540DE /* AppModel.swift in Sources */,
+				ACCE70A22BF51286009540DE /* TableView.swift in Sources */,
+				AC7782612BF632C8000A2EA7 /* DateFormat.swift in Sources */,
 				ACCE708A2BF210B9009540DE /* IZAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IZA/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A9QRSVBS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IZA/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A9QRSVBS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
